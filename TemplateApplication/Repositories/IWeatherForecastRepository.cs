@@ -1,4 +1,6 @@
-﻿namespace TemplateApplication.Repositories
+﻿using TemplateApplication.Repositories.Shared;
+
+namespace TemplateApplication.Repositories
 {
     public interface IWeatherForecastRepository : IRepository<WeatherForecast>
     {

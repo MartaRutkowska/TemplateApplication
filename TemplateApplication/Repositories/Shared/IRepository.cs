@@ -1,4 +1,4 @@
-﻿namespace TemplateApplication.Repositories
+﻿namespace TemplateApplication.Repositories.Shared
 {
     public interface IRepository<TEntity> where TEntity : class
     {
